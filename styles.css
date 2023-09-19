@@ -95,6 +95,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 40px; /* Adds space between nav and main content */
+  margin-bottom: 50px;
 }
 
 .profile-card {
@@ -145,3 +146,58 @@ main {
 }
 
 
+.blog-post {
+  background-color: rgba(255, 255, 255, 0.8);  /* Slightly transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-post h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: var(--nixie-orange);
+  border-bottom: 2px solid var(--nixie-dark);
+  padding-bottom: 10px;
+}
+
+.blog-post p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* For the author name */
+.blog-post p:nth-child(2) {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Styling for the comments section */
+.comments {
+  background-color: rgba(242, 242, 242, 0.9);  /* Slightly different background for contrast */
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.comments h3 {
+  color: var(--nixie-dark);
+  font-size: 20px;
+  border-bottom: 1px solid var(--nixie-dark);
+  padding-bottom: 5px;
+}
+
+.comment {
+  margin-top: 15px;
+}
+
+.comment p {
+  margin: 5px 0;
+}
+
+.comment strong {
+  color: var(--nixie-orange);
+}
