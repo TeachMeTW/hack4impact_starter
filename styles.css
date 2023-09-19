@@ -201,3 +201,28 @@ main {
 .comment strong {
   color: var(--nixie-orange);
 }
+
+.gadget {
+  border: 1px solid var(--nixie-dark);
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--nixie-light);
+}
+
+.gadget img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.gadget h2 {
+  margin: 0;
+  font-size: 24px;
+  color: var(--nixie-orange);
+}
